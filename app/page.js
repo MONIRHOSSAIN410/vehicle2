@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link"
 import { FiChevronDown } from "react-icons/fi";
 import { CiCircleCheck } from "react-icons/ci";
 import { AiTwotoneCopyright } from "react-icons/ai";
@@ -8,6 +9,7 @@ import { FaFacebookSquare } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { IoSearchSharp } from "react-icons/io5";
 import { BiLayerMinus } from "react-icons/bi";
+import { TbPointFilled } from "react-icons/tb";
 const page = () => {
   return (
     <>
@@ -15,19 +17,19 @@ const page = () => {
         <div className="navdiv">
           <ul className="uli">
             <li>
-              <a href="./">Home</a>
+              <Link href="./">Home</Link>
             </li>
             <li>
-              <a href="/pricing">Pricing</a>
+              <Link href="/pricing">Pricing</Link>
             </li>
             <li>
-              <a href="/Manufacturer">Manufacturer</a>
+              <Link href="/Manufacturer">Manufacturer</Link>
             </li>
             <li className="business">
-              <a href="/business">Business(API)</a>
+              <Link href="/business">Business(API)</Link>
             </li>
             <li>
-              <a href="/blog">Blog</a>
+              <Link href="/blog">Blog</Link>
             </li>
           </ul>
 
@@ -53,61 +55,61 @@ const page = () => {
             suite for developers and platforms
           </p>
           <ul>
-            <h2>VIN Decoder API</h2>
+            <h2>VIN Decoder API-</h2>
             <li>
-              Complete manufacturer specifications including trim codes and body
+             <TbPointFilled className="point"/> Complete manufacturer specifications including trim codes and body
               type
             </li>
             <li>
-              Detailed vehicle features & options based on official build data
+              <TbPointFilled className="point"/> Detailed vehicle features & options based on official build data
             </li>
             <li>
-              Manufacturing plant information including location and production
+             <TbPointFilled className="point"/> Manufacturing plant information including location and production
               batch
             </li>
             <li>
-              Technical specifications for Chinese models including engine and
+              <TbPointFilled className="point"/> Technical specifications for Chinese models including engine and
               drivetrain
             </li>
           </ul>
         </div>
         <div className="main">
           <ul>
-            <h2>VIN History API</h2>
+            <h2>VIN History API-</h2>
             <li>
-              Verified accident records from Chinese databases and police
+             <TbPointFilled className="point"/> Verified accident records from Chinese databases and police
               sources
             </li>
             <li>
-              Ownership history in mainland China including previous transfers
+             <TbPointFilled className="point"/> Ownership history in mainland China including previous transfers
             </li>
             <li>
-              Title status & registration details with regional verification
+             <TbPointFilled className="point"/> Title status & registration details with regional verification
             </li>
             <li>
-              Import/Export documentation including customs and border logs
+             <TbPointFilled className="point"/> Import/Export documentation including customs and border logs
             </li>
 
-            <li>Theft records from Chinese authorities with case references</li>
+            <li><TbPointFilled className="point"/> Theft records from Chinese authorities with case references</li>
             <li>
-              Insurance claims history for damages, totals, and settlements
+             <TbPointFilled className="point"/> Insurance claims history for damages, totals, and settlements
             </li>
           </ul>
         </div>
         <div className="main">
           <ul>
-            <h2>Maintenance Records API</h2>
+            <h2>Maintenance Records API-</h2>
             <li>
-              Chinese service center records with timestamps and work orders
+             <TbPointFilled className="point"/> Chinese service center records with timestamps and work orders
             </li>
             <li>
-              Detailed vehicle features & options based on official build data
+             <TbPointFilled className="point"/> Detailed vehicle features & options based on official build data
             </li>
-            <li>Authorized repair documentation including OEM part usage</li>
-            <li>Original parts replacement history by certified mechanics</li>
+            <li><TbPointFilled className="point"/> Authorized repair documentation including OEM part usage</li>
+            <li><TbPointFilled className="point"/> Original parts replacement history by certified mechanics</li>
 
-            <li>Factory recall status based on manufacturer bulletins</li>
-            <li>Verified mileage reports validated by service intervals</li>
+            <li><TbPointFilled className="point"/> Factory recall status based on manufacturer bulletins</li>
+            <li><TbPointFilled className="point"/> Verified mileage reports validated by service intervals</li>
           </ul>
         </div>
       </section>
@@ -127,10 +129,10 @@ const page = () => {
             <div className="amount">
               $1.99<span>/month</span>
             </div>
-            <p>Fees:$100 + $250 prepaid credit</p>
+            <p> Fees:$100 + $250 prepaid credit</p>
             <div className="list">
               <ul>
-                <li><CiCircleCheck className="checker" />Up to 100 requests/month</li>
+                <li><CiCircleCheck className="checker"/>Up to 100 requests/month</li>
                 <li><CiCircleCheck className="checker" />Full API suite access</li>
                 <li><CiCircleCheck className="checker" />Standard support</li>
               </ul>
@@ -145,7 +147,7 @@ const page = () => {
           
           <div className="section3">
             <div className="unit">
-        <BiLayerMinus className="unitee" />
+        <BiLayerMinus className="unite" />
             <h3>Professional</h3>
             </div>
             <div className="amount">
@@ -154,7 +156,7 @@ const page = () => {
             <p>Fees:$100 + $400 prepaid credit</p>
             <div className="list">
               <ul>
-                <li><CiCircleCheck className="checker" /> 100 requests/month</li>
+                <li><CiCircleCheck className="checker" />100 requests/month</li>
                 <li><CiCircleCheck className="checker" />Complete API access</li>
                 <li><CiCircleCheck className="checker" />Priority support response</li>
               </ul>
@@ -178,7 +180,7 @@ const page = () => {
             <p>Fees:$100 + $900 prepaid credit</p>
             <div className="list">
               <ul>
-                <li><CiCircleCheck className="checker" /> 1000+ requests/month</li>
+                <li><CiCircleCheck className="checker"/>1000+ requests/month</li>
                 <li><CiCircleCheck className="checker" />Full API functionality</li>
                 <li><CiCircleCheck className="checker" />Dedicated support team</li>
               </ul>
@@ -240,7 +242,7 @@ const page = () => {
       </footer>
          <div className="footer4">
             <div>
-             <AiTwotoneCopyright className="cicons"/> 2025 VIN Inspector ALL rights reserved 
+             <AiTwotoneCopyright className="icons"/> 2025 VIN Inspector ALL rights reserved 
             </div>
             <div className="terms">
               Terms of Service <span>Privacy Policy</span>

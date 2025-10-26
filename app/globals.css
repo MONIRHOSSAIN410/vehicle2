@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 *{
   margin:0;
   padding:0;
@@ -6,20 +7,19 @@
   
 }
 .navbar{
-  font-family: calibri;
+ 
   padding-right: 15px;
   padding-left: 15px;
+  font-family: "Jost","saris";
  
 }
 .navdiv{
-   margin-left: 100px;
+   margin-left: 170px;
    display: flex;
   align-items: center;
   justify-content: space-between;
-  
-  
-  margin-top: 15px;
-  
+   margin-top: 20px;
+  font-family: "Jost", sans-serif;
 }
 .unitee{
   width:35px;
@@ -31,7 +31,19 @@ padding: 5px;
 color: white;
 margin-left: 129px;
 margin-top: 35px;
-cursor: pointer;
+
+}
+.unite{
+    width:35px;
+  height: 35px;
+  background: white;
+  border-radius: 25px;
+font-size: 15px;
+padding: 5px;
+color: rgb(0, 0, 0);
+margin-left: 129px;
+margin-top: 35px;
+
 }
 
 .uli{
@@ -69,7 +81,8 @@ li a{
   font-size: 18px;
   color: white;
   cursor: pointer;
-
+   font-family: "Jost", sans-serif;
+   
 }
 .btn:hover{
   background:rgb(153, 67, 5) ;
@@ -92,10 +105,12 @@ text-align: center;
   margin-bottom: 35px;
 }
 .first{
-font-size: 55px;
-margin-left: 350px;
+font-size: 48px;
+margin-left: 335px;
 font-style: italic;
-margin-top: 25px;
+margin-top: 45px;
+font-family: "Jost", sans-serif;
+letter-spacing: 1.5px;
 
 }
 
@@ -115,33 +130,38 @@ background:rgb(228, 209, 209) ;
 }
 
 .main p{
-  margin-left: 185px;
+  margin-left: 160px;
   font-size: 20px;
   word-spacing:5px;
-  margin-bottom: 35px;
-
-
+  margin-bottom: 25px;
+  margin-top: 25px;
+ font-family: "Jost", sans-serif;
  
 }
 .main h2{
-margin-left: 168px;
+margin-left: 215px;
 font-size: 25px;
-padding: 25px;
-
+padding: 15px;
+ font-family: "Jost", sans-serif;
 
 }
 .main li{
   margin-left: 210px;
-  font-size: 23px;
+  font-size: 20px;
   word-spacing: 10px;
   line-height: 30px;
+  list-style: none;
+ font-family: "Jost", sans-serif;
 
  
 }
+.point{
+  font-size: 10px;
+}
 
 .section2{
- width: 295px;
- height: 600px;
+ width: 310px;
+ height: 590px;
  border: 2px solid rgb(204, 184, 184) ;
  border-radius: 10px;
 margin-top: 35px;
@@ -151,10 +171,10 @@ margin-top: 35px;
   margin-left: 175px;
   display:grid;
   grid-template-columns:300px 300px 300px;
-  gap:25px
+  gap:50px
 }
 .colorr{
- background-image: linear-gradient(to top right,rgb(0, 0, 0),rgb(58, 28, 6),rgb(73, 31, 1));
+ background-image: linear-gradient(to top right,rgba(0, 0, 0, 0.89),rgb(0, 0, 0),rgb(20, 9, 2),rgba(26, 11, 1, 0.911),rgba(90, 39, 3, 0.575));
  border: none;
  color: white;
 
@@ -169,7 +189,7 @@ margin-top: 35px;
   margin-top: 46px;
   margin-left: 40px;
   border: none;
-
+ font-family: "Jost", sans-serif;
 }
 .btn7{
    display: block;
@@ -180,6 +200,7 @@ margin-top: 35px;
   margin-top: 21px;
   margin-left: 40px;
   border: none;
+  font-family: "Jost", sans-serif;
 }
 .btn6{
   display: block;
@@ -190,38 +211,46 @@ margin-top: 35px;
   margin-top: 21px;
   margin-left: 40px;
   border: none;
+   font-family: "Jost", sans-serif;
+  
 
 }
 .section h3{
   font-size: 20px;
   text-align: center;
   margin-top: 5px;
+   font-family: "Jost", sans-serif;
 }
 .amount{
-  font-size: 25px;
+  font-size: 32px;
   font-weight: bold;
   text-align: center;
   padding: 13px;
+   font-family: "Jost", sans-serif;
 }
 .amount span{
-  font-size: 15px;
+  font-size: 13px;
+   font-family: "Jost", sans-serif;
 
 }
 .section3 p{
   font-size: 15px;
-  text-align: center;
-  padding: 15px;
+  margin-left: 26px;
+  padding: 14px;
+   font-family: "Jost", sans-serif;
 }
 .list li{
-  font-size: 17px;
+  font-size: 18px;
   margin-left: 40px;
   list-style: none;
-  line-height: 21px;
+  line-height: 25px;
+   font-family: "Jost", sans-serif;
 }
 .checker{
-  font-size:15px;
+  font-size:17px;
  margin-right: 7px;
  margin-top: 4px;
+  font-family: "Jost", sans-serif;
 }
 .btn2,.btn3,.btn4{
   display: block;
@@ -232,9 +261,11 @@ margin-top: 35px;
   margin-top: 45px;
   margin-left: 40px;
   border: none;
+   font-family: "Jost", sans-serif;
 }
 .btn3,.btn4{
   margin-top: 20px;
+   font-family: "Jost", sans-serif;
 }
 
 
@@ -252,12 +283,12 @@ margin-top: 35px;
 }
 
 .footer2 h4{
-  font-size: 20px;
-  margin-left: 40px;
+  font-size: 18px;
+  margin-left: 84px;
   margin-top: 20px;
-  padding: 20px;
+  padding: 16px;
   font-weight: bold;
-
+ font-family: "Jost", sans-serif;
 
   
 }
@@ -266,22 +297,24 @@ margin-top: 35px;
   font-size: 18px;
   color:rgb(143, 142, 142) ;
   line-height: 25px;
-  margin-left: 60px;
- margin-bottom: 15px;
+  margin-left: 100px;
+ margin-bottom: 10px;
+  font-family: "Jost", sans-serif;
 }
 .footer2 p{
   list-style: none;
   font-size: 15px;
   color:rgb(143, 142, 142) ;
   line-height: 25px;
-  margin-left: 60px;
+  margin-left: 98px;
+   font-family: "Jost", sans-serif;
 }
 .search{
-  width: 25px;
-  height: 25px;
+  width: 23px;
+  height: 23px;
   background: black;
   border-radius: 5px;
-  margin-right: 13px;
+  margin-right: 8px;
   padding: 2px;
 
 color: antiquewhite;
@@ -291,34 +324,39 @@ color: antiquewhite;
  
   display:flex;
   justify-content: space-between;
-  padding:20px;
+  padding:12px;
   background:rgb(204, 184, 184) ;
-   border-top: 1px solid rgb(102, 92, 92) ;
+  border-top: 1px solid rgb(102, 92, 92) ;
  
 }
 
 .footer4 div{
  
-  margin-left: 32px;
+  margin-left: 52px;
   color: rgb(102, 92, 92);
- 
+  font-family: "Jost", sans-serif;
+  font-size: 14.5px;
   
 }
 .terms{
   margin-right: 100px;
   color: rgb(102, 92, 92);
+   font-family: "Jost", sans-serif;
+  
 }
 .terms span{
   margin-left: 20px;
+   font-family: "Jost", sans-serif;
 }
 .linkedd {
   font-size: 20px;
-  margin-left: 60px;
+  margin-left: 98px;
   margin-top: 15px;
+  
  
 }
 .cicons{
-  font-size: 13px;
+  font-size: 12px;
   display: inline;
 color: rgb(102, 92, 92) ; 
 }
